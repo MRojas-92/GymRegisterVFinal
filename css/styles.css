@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Krub', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #e4dcdcbb;
+    
+  
+}
+/* TODO EL HEADER */
+.titulo{
+    display: flex ;
+    align-items: center;
+    flex-direction: row;
+    justify-content:baseline;
+    background-image: linear-gradient(to left,#c2b3b5 0%, #c9d3d2  100%);
+    padding-left: 4rem;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    
+}
+.titulo h1,p{
+    padding-left: 1rem;
+    text-align: left;
+}
+.titulo div{
+    max-width: 300px;
+}
+/* CONTENEDOR DEL FORMULARIO */
+.formulario { 
+  background-color: #0098cb;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.664);;
+  -moz-box-shadow: 0px 5px 15px 0px  rgba(0, 0, 0, 0.664);;
+  box-shadow: 0px 5px 15px 0px  rgba(0, 0, 0, 0.664);;
+}
+.formulario legend {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+input[type="text"], input[type="password"] {
+    outline: none;
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+  .boton{
+    color: #ffffff;
+    background: #555d5b;
+    margin-top: .5rem;
+    padding: .5rem 3rem;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border:none;
+  }
+  .boton:hover{
+    background-color: #9b00ff;
+    cursor: pointer;
+  }
+.iconos{
+    margin: auto;
+    max-width: 350px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.alinear{
+margin-left: 100px;
+}
+.alinear p{
+font-weight: bold;
+}
+@media (min-width:768px) {
+  .alinear {
+    margin-left: 800px;
+  }
+}
+/* Registrarse */
+
+.contenedor-campos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.campo {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex: 0 0 calc(50% - .5rem)
+}
+
+.campo label {
+  font-weight: 700;
+  display: block;
+  flex: 0 0 90px;
+}
+  
+  .campo input[type="txt"],
+  .campo input[type="text"],
+  .campo input[type="number"],
+  .campo input[type="tel"],
+  .campo input[type="mail"],
+  .campo input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    flex: 1;
+  }
+  .campo input[type="radio"]{
+    margin: 0px;
+    padding: 0px;
+  }
+  label.radio {
+    margin: 0px;
+    padding: 0px;    
+  }
+  .campo input[type="password"]{
+    max-width: 350px;  
+  }
+  
+  .w-100{
+    flex: 0 0 100%;
+  }
+  
+  .enviar {
+    display: flex;
+    justify-content: flex-end;
+    float: left;
+  }
+
+  .cancelar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

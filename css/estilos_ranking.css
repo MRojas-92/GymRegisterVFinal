@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.titulo-ranking {
+  margin: 1rem 0 5px 0;
+}
+
+/* ESTILOS DEL PANEL */
+.contenedor-r {
+    width: 60%;
+    max-width: 1200px; /* 1200px = 120rem */
+    margin: 0 auto;
+}
+.seccion-r {
+    margin-top: 50px;
+}
+.centrar-textor {
+    text-align: center;
+}
+.conten-anunciosr {
+    display: flex;
+    justify-content: space-between;
+}
+.contengen-ranking {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    background-color: #C70E0E;  /* #B40404 */
+}
+
+.posicion-r {
+    flex: 0 0 calc(20% - 7px);
+    border: 4px solid #000; 
+    background: #F4FA58;/*#B5B5B5*/
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.casillas-r {
+    flex: 0 0 calc(20% - 7px);
+    border: 4px solid #000; 
+    background: #FF8F00;/*#B5B5B5*/
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.casilla-pr {
+    flex: 0 0 calc(20% - 7px);
+    padding-top: 5px;
+    color: #ff0;
+}
+
+.tamaño-tablar { /* Crear un margen entre el texto y el extremo de la celda */
+    padding-bottom: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tamaño-tablar img{ /* Crear un margen entre el texto y el extremo de la celda */
+    padding-bottom: 10px;
+}
+
+.contengen-ranking h1{
+    color: #ffffff;
+}
+
+.contengen-ranking h2{
+    color: #ff0;
+}
+
+.estilos-tablar {
+    margin: 2rem 0 2rem 0;
+    display:flex; 
+    justify-content: center;
+}
+
+ /* ESTILOS DE BOTON */
+.boton-espacior {
+    display: block;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.boton {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 37% 0 37%;
+    padding: 7px 0 7px 0;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+}
+.estilo-boton {
+    background-color: #F4FA58;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px;
+    width: 26%;
+    padding-top: 15px;
+    height: 30px;
+}
+
+.contengen-ranking img {
+    padding-top: 1rem;
+}
+
+.tamaño-tablar h4 {
+    padding: 0 1rem 0 1rem;
+}
+
